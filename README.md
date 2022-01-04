@@ -11,7 +11,7 @@ Production ready boilerplate for hapiJS
 - **Gulp** - Javascript tasks automation
 - **WebPack** - Asset pipeline
 
-Note: For a detailed list of the toolsets used in jolly, please refer to [package.json](package.json). 
+Note: For a detailed list of the toolsets used in HapyNeSS, please refer to [package.json](package.json). 
 
 ## Application Structure
 
