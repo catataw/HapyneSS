@@ -1,0 +1,14 @@
+{
+  "server": {
+    "port": "8000",
+    "authKey": "ZnINHSMNGOfe",
+    "cryptPass": "Er5787aC8xsK2",
+    "cryptAlgorithm": "aes-256-ctr",
+    "development": false
+  },
+  "session": {
+    "host": "54.157.26.191",
+    "port": "6379",
+    "password": "5757147d433025ac1f327565"
+  }
+}

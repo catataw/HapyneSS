@@ -1,0 +1,35 @@
+version: "2"
+services:
+  postgresql:
+    restart: always
+    image: sameersbn/postgresql:9.5-3
+    ports:
+      - "5432:5432"
+    environment:
+      - DEBUG=true
+
+      - DB_USER=matheus
+      - DB_PASS=batatinha
+      - DB_NAME=api_exemplo
+      - DB_TEMPLATE=
+
+      - DB_EXTENSION=
+
+      - REPLICATION_MODE=
+      - REPLICATION_USER=
+      - REPLICATION_PASS=
+      - REPLICATION_SSLMODE=
+    volumes:
+      - ./data:/var/lib/postgresql
+
+  # hapi:
+  #   restart: always
+  #   build: .
+  #   ports:
+  #     - "8080:8080"
+  #   volumes:
+  #     - ./src/:/app/
+  #   links:
+  #     - postgresql
+  #   environment:
+  #     - NODE_ENV=container
